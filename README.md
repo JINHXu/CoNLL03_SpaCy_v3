@@ -2,8 +2,8 @@
 
 ## Obtain CoNLL-2003 DATA
 Follow the instructions on the [share-task website](https://www.clips.uantwerpen.be/conll2003/ner/) to obtain train, valid and test data. <BR>
-*(Note: the original German data is no longer available on LDC.)*
-*No data files are local since the data are not available publicly.*
+*(Note: the original German data is no longer available on LDC.)*<br>
+*All data files are local since the data are not available publicly.*
 
 
 ## Experiments start here
