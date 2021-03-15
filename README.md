@@ -30,6 +30,8 @@ tokenizing...
 1. Convert CoNLL-03 to SpaCy format<br>
 
 `python -m spacy convert -c ner -b en_core_web_trf -n 10 assets/conll2003/train.txt corpus`<br>
+`python -m spacy convert -c iob -s -n 10 -b en_core_web_sm file.iob .`
+
 CLI opt example (converted training data): 
 ```
 ℹ Auto-detected token-per-line NER format
