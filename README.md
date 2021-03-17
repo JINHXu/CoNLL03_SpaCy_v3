@@ -9,14 +9,14 @@ CoNLL-2003 datasets include corpus in two languages: English and German
 ## Models
 
 Two SpaCy v3 models are trained: an English model and a German model (with respective data)
-* The English model is trained with the CoNLL-2003 English data, the experiment was done on Google Colab (not recommended). 
+* The English model is trained with the CoNLL-2003 English data, the model was trained on Google Colab (not recommended). 
 
     _Go to [eng]()_
 
-* The German model is trained with the CoNLL-2003 German data, the experiment was done locally, also built into a SpaCy project. (Everything takes significantly longer time on Colab, running on local machine is recommended.)
+* The German model is trained with the CoNLL-2003 German data, the model was trained locally, also built into a SpaCy project. (Everything takes significantly longer time on Colab, running on local machine is recommended in this case.)
 
     _Go to [deu]()_
 
 
 
-<sub>The [first experiment]() folder includes the report of a first experiment of trianing an Englihs model with data from unoffical source, in which the annotations differ from the official data. </sub>
+<sub>The [fe]() folder includes the report of a first experiment of trianing an English model with data from unoffical source, in which the annotations differ from the official data. </sub>
