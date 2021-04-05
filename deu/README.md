@@ -2,9 +2,9 @@
 
 In total nine models with different configurations were trained. 
 
-The F-scores during training and corresponding configurations were kept in a csv file [here]()
+The F-scores during training and corresponding configurations were kept in a csv file [here](https://github.com/JINHXu/CoNLL03_SpaCy_v3/blob/main/deu/config_fscore.csv)
 
-Best model [report]() (commands & CLI opt)
+Best model [report](https://github.com/JINHXu/CoNLL03_SpaCy_v3/blob/main/deu/report.md) (commands & CLI opt)
 
 The training workspace (including the trained models) was uploaded on Google Drive: [deu](https://drive.google.com/drive/folders/1NI9JihbKZjYIPatQtrmLDIht7iIDx0Fk)
 
