@@ -1,0 +1,11 @@
+config,vectors,data_augmenter,notes,fscore
+config_eff,null,null,null,0.8690586745
+config_acc,en_core_web_lg,null,null,0.9114201433
+config_acc_aug,en_core_web_lg,en_orth_variants,null,0.9016145308
+config_acc_batcher,en_core_web_lg,null,spacy.batch_by_padded.v1,0.9120554194
+config_acc_optimizer,en_core_web_lg,null,SGD.v1,0.8337842408
+config_acc_optimizer2,en_core_web_lg,null,RAdam.v1,0.9196466134
+config_acc_optimizer_scheduler,en_core_web_lg,null,RAdam.v1 and decaying scheduler,0.9120148186
+cnn_glove_small,GloVe vectors,null,null,0.9281870165
+
+
