@@ -1,6 +1,6 @@
 # Train spaCy v3.0 models with CoNLL-2003 data
 
-I trained a series of spaCy v3.0 (English and German) NER models with different configurations in order to achieve a best possible F-score during training.
+I trained a series of (language-dependent) spaCy v3.0 (English and German) NER models with different configurations in order to achieve the best possible. Among them, the best English NER model had F-score 87.10, the best German NER model had F-score 83.29 (evaluated on testb). 
 
 ## software
 
@@ -31,8 +31,7 @@ NER F   87.10
 SPEED   13993
 ```
 
-
-    _Go to [eng](https://github.com/JINHXu/CoNLL03_SpaCy_v3/tree/main/eng)_
+   _Go to [eng](https://github.com/JINHXu/CoNLL03_SpaCy_v3/tree/main/eng)_
 
 * The German models were trained with the CoNLL-2003 German data, the models were trained locally on CPU, though for transformer models, trianing on CPU is suggested against. Training transformer models on GPU can be 3-4X faster.
 
@@ -46,8 +45,6 @@ NER F   83.29
 SPEED   117   
 ```
 
-
-    _Go to [deu](https://github.com/JINHXu/CoNLL03_SpaCy_v3/tree/main/deu)_
-
+   _Go to [deu](https://github.com/JINHXu/CoNLL03_SpaCy_v3/tree/main/deu)_
 
 <sub>The [fe]() folder includes the report of a first experiment of trianing an English model with data from unoffical source, in which the annotations differ from the official data. </sub>
