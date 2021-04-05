@@ -1,0 +1,13 @@
+config,vector,augumenter,notes,F-score
+defualt_config,null,null,null,0.5605189083
+config3,null,de_orth_variant,null,0.550796198
+config_vec_corr,de_core_news_lg,null,null,0.747032967
+config_vec_aug,de_core_news_lg,de_orth_variant,null,0.7319055464
+cnn_small,null,null,spacy.TransitionBasedParser.v1,0.5803638176
+cnn_vec_small,de_core_news_lg,null,spacy.TransitionBasedParser.v1,0.7486881768
+vec_batcher,de_core_news_lg,null,spacy.batch_by_padded.v1,0.7491386018
+vec_radam,de_core_news_lg,null,RAdam.v1,0.7651750111
+config_transformer,null,null,transformer,0.8721599832
+
+
+
