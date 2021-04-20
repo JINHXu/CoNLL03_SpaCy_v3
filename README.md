@@ -1,6 +1,11 @@
 # Train spaCy v3.0 models with CoNLL-2003 data
 
-I trained a series of (language-dependent) spaCy v3.0 (English and German) NER models with different configurations in order to achieve the best possible. Among them, the best English NER model had F-score 87.10, the best German NER model had F-score 83.29 (evaluated on testb). 
+I trained a series of (language-dependent) spaCy v3.0 (English and German) NER models with different configurations in order to achieve the best possible f-score. Among them, the best English NER model (benchmark model) had F-score 89.22, the best German NER model had F-score 83.29, both evaluated on the respective testb data. 
+
+[paper]()
+
+<sub>With no access to GPU, all models including the transformer-based model were trained on CPU. However, it is generally suggested against training a transformer-based model on CPU, training on GPU is 3-4X faster.</sub>
+
 
 ## software
 
@@ -19,23 +24,25 @@ CoNLL-2003 datasets include corpus in two languages: English and German
 
 ## Models
 
-* The English models were trained with the CoNLL-2003 English data, the models were trained on local machine on CPU. Part of the experiment was also performed on Google Colab (the best model `cnn_glove_small` was also trained on Colab, though training on Colab is not recommended).
+* The English models were trained with the CoNLL-2003 English data, the models were trained on local machine on CPU. Part of the experiment was also performed on Google Colab (the benchmark model `cnn_glove_small` was trained both on Colab and on my computer, training on Colab is slower so not recommended).<br>
 
-The model with the best performance during training was `cnn_glove_small`, achieved F-score as good as 0.9281870165.<br>
+The benchmark model without a doubt showed the highest f-score during training, and the evaluation results:<br>
+(the best model I configured in the experiments also presented relatively high f-score during training, around 0.1 smaller than that of the benchmark model )
 
 ```
-TOK     -    
-NER P   87.49
-NER R   86.70
-NER F   87.10
-SPEED   13993
+TOK     100.00
+NER P   89.20 
+NER R   89.24 
+NER F   89.22 
+SPEED   13745 
 ```
 
    _Go to [eng](https://github.com/JINHXu/CoNLL03_SpaCy_v3/tree/main/eng)_
 
 * The German models were trained with the CoNLL-2003 German data, the models were trained locally on CPU, though for transformer models, trianing on CPU is suggested against. Training transformer models on GPU can be 3-4X faster.
 
-The model with the best performance during training was `transformer`, achieved F-score as good as 0.8721599832.<br>
+The model with the best performance during training was the transformer-based model `transformer`, it achieved F-score as good as 0.8721599832 during training.<br>
+
 Evaluation on testb:
 ```
 TOK     100.00
