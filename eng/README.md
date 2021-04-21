@@ -6,11 +6,11 @@ The F-scores during training and corresponding configurations were kept in a csv
 
 Best model [report](https://github.com/JINHXu/CoNLL03_SpaCy_v3/blob/main/eng/report.md) (commands & CLI opt)
 
-Training of the best model was done in seperate work space [glove_cnn](https://drive.google.com/drive/folders/1MWI4ALzylwmyfeVKWFguFasIoJ2xn9hR)
+Training of the best model was done in seperate work space [glove_cnn](https://drive.google.com/drive/folders/1MWI4ALzylwmyfeVKWFguFasIoJ2xn9hR?usp=sharing)
 
 The best model training was also experimented on Colab, [notebook](https://github.com/JINHXu/CoNLL03_SpaCy_v3/blob/main/eng/CoNLL03_eng_SpaCyV3.ipynb), which is not recommended.
 
-The training workspace (including the trained models) of all experiments was uploaded on Google Drive: [eng](https://drive.google.com/drive/folders/18qkzPxCxh1PX6p3KtzS37vZPKUEHz40g)
+The training workspace (including the trained models) of all experiments was uploaded on Google Drive: [eng](https://drive.google.com/drive/folders/18qkzPxCxh1PX6p3KtzS37vZPKUEHz40g?usp=sharing)
 
 
 * training 
