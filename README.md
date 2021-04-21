@@ -1,6 +1,6 @@
 # Train spaCy v3.0 models with CoNLL-2003 data
 
-I trained a series of (language-dependent) spaCy v3.0 (English and German) NER models with different configurations in order to achieve the best possible f-score. Among them, the best English NER model (benchmark model) had F-score 89.22, the best German NER model had F-score 83.29, both evaluated on the respective testb data. 
+I trained a series of (language-dependent) spaCy v3.0 (English and German) NER models with different configurations in order to achieve the best possible f-score. Among them, the best English NER model (benchmark model) had F-score **89.22**, the best German NER model had F-score **83.29**, both evaluated on the respective testb data. 
 
 [paper]()
 
